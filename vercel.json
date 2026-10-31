@@ -1,12 +1,6 @@
 {
   "version": 2,
   "name": "vta-frontend",
-  "builds": [
-    {
-      "src": "Code/frontend/**",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
@@ -22,11 +16,11 @@
     },
     {
       "src": "/static/(.*)",
-      "dest": "/Code/frontend/static/$1"
+      "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/Code/frontend/$1"
+      "dest": "/$1"
     }
   ]
 }
