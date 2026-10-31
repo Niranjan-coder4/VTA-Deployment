@@ -3,24 +3,8 @@
   "name": "vta-frontend",
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "https://vta-flask-backend.fly.dev/api/$1"
-    },
-    {
-      "src": "/drive/(.*)",
-      "dest": "https://vta-flask-backend.fly.dev/drive/$1"
-    },
-    {
-      "src": "/uploads/(.*)",
-      "dest": "https://vta-flask-backend.fly.dev/uploads/$1"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "https://vta-flask-backend.fly.dev/$1"
     }
   ]
 }
