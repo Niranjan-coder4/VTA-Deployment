@@ -10,15 +10,15 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://vta-flask-backend.onrender.com/api/$1"
+      "dest": "https://vta-flask-backend.fly.dev/api/$1"
     },
     {
       "src": "/drive/(.*)",
-      "dest": "https://vta-flask-backend.onrender.com/drive/$1"
+      "dest": "https://vta-flask-backend.fly.dev/drive/$1"
     },
     {
       "src": "/uploads/(.*)",
-      "dest": "https://vta-flask-backend.onrender.com/uploads/$1"
+      "dest": "https://vta-flask-backend.fly.dev/uploads/$1"
     },
     {
       "src": "/static/(.*)",
